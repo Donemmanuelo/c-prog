@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+char upper, lower;
+printf("please a enter a text of exactly 7 character and start with a capital letter");
+scanf("%s", &upper);
+lower = (upper + 32);
+printf("the text in lowercase letter is: %s\n", lower);
+return 0;
+}
